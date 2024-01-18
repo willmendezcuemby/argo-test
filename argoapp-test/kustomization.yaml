@@ -6,4 +6,3 @@ helmCharts:
   releaseName: postgresql
   namespace: ccp-test1
   version: 12.8.0
-  valuesFile: values.yaml
