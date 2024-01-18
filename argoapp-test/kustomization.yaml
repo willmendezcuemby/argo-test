@@ -1,8 +1,7 @@
 kind: Kustomization
-
 helmCharts:
-- name: kong
-  repo: oci://registry-1.docker.io/bitnamicharts/
-  releaseName: kong1
+- name: schemahero
+  repo: oci://ghcr.io/schemahero/helm/schemahero
+  releaseName: schemahero
   namespace: ccp-test1
-  version: 9.4.2
+  version: 0.18.1
